@@ -1,0 +1,92 @@
+body {
+    min-width: 20rem;
+    min-height: 15rem;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin-top: .3rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.interface {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+p {
+    margin: .5rem 5rem;
+    padding: .3rem;
+    text-align: center;
+    border: solid rebeccapurple 1px;
+}
+
+.btn {
+    background-color: rgb(95, 95, 95);
+    color: rgb(231, 231, 231);
+    border-radius: 5px;
+    margin: .3rem .3rem;
+    padding: .3rem;
+}
+.opt{
+    height: 50%;
+    align-self: center;
+    vertical-align: middle;
+    float: left;
+}
+
+.element {
+    text-align: center;
+    padding: 5px;
+    border: 2px solid blue;
+    background-color: rgb(250, 205, 153);
+    border-radius: 5px;
+    margin: .3rem;
+    min-height: 1.3rem;
+    width: 100%;
+    line-break: none;
+}
+
+.element:hover {
+    background-color: rgb(216, 201, 185);
+    font-size: 17px;
+}
+
+.logs {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0.1rem;
+    border-radius: 10px;
+}
+
+.startDiv {
+    display: flex;
+    width: 100%;
+}
+
+input {
+    height: 1rem;
+    width: 3rem;
+}
+
+.startDivElement {
+    flex-wrap: wrap;
+    margin: 5px;
+    border: 3px solid steelblue;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3px;
+    border-radius: 5px;
+    clear: both;
+}
+
+footer{
+text-align: end;
+}
